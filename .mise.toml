@@ -1,0 +1,11 @@
+[tools]
+zola = "latest"
+
+[tasks.build]
+run = 'zola build'
+
+[tasks.serve]
+run = 'zola serve'
+
+[tasks.clean]
+run = 'rm -rf public/'

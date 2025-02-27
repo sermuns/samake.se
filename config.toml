@@ -1,0 +1,7 @@
+title = "Samuel Åkesson"
+base_url = "/"
+compile_sass = true
+build_search_index = false
+
+[markdown]
+external_links_target_blank = true

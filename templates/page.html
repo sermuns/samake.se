@@ -1,0 +1,7 @@
+{% extends "index.html" %}
+
+{% block content %}
+<a href=".." style="font-size: 300%;">⬅</a>
+{{ '# ' ~ page.title | markdown | safe }}
+{{ page.content | safe }}
+{% endblock content %}
