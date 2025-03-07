@@ -1,5 +1,5 @@
 tasks.build = 'zola build'
-tasks.serve = 'zola serve'
+tasks.serve = 'zola serve --open'
 tasks.clean = 'rm -rf public/'
 
 [tools]
