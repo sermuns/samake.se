@@ -1,1 +1,0 @@
-mdbook: mise serve
