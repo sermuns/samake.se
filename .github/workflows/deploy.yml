@@ -13,16 +13,16 @@ jobs:
   deploy:
     runs-on: ubuntu-24.04
     permissions:
-      contents: read # to checkout private repo
       id-token: write # to use actions/deploy-pages
       pages: write # to push to a github pages site
     steps:
+
       - uses: actions/checkout@v4
 
       - uses: jdx/mise-action@v2
 
-      - name: Build mdBook
-        run: mise build
+      - name: Build
+        run: zola build
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
