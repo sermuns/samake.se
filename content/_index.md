@@ -5,7 +5,8 @@
 
 # Samuel Åkesson
 - [📂 Projekt](projekt)
-- [📖 Om mig](om-mig)
+- [🖊️ Blogg](blogg)
+- [🔎 Om mig](om-mig)
 - [💬 Kontakt](kontakt)
 
 </div>
