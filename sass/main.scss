@@ -1,9 +1,10 @@
 $mobile-width: 40rem;
 
 :root {
-	--foreground: white;
-	--background: #221;
-	--accent: lightblue;
+	--foreground: #fef2d8;
+	--background: #36311f;
+	--accent: #b5ca8d;
+	--code: #2B2718;
 	line-height: 1.8em;
 }
 
@@ -30,7 +31,9 @@ main {
 
 code {
 	font-family: "MonaspiceKR NFM", monospace;
-	background-color: #151515;
+	background-color: var(--code);
+	border-radius: .1em;
+	box-shadow: 0 0 0 0.2em var(--code);
 }
 
 img {
