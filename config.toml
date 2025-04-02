@@ -1,7 +1,13 @@
 title = "Samuel Åkesson"
+description = "Min personliga hemsida / portfolio."
+default_language = "sv"
+
 base_url = "/"
+minify_html = true
 compile_sass = true
 build_search_index = false
 
 [markdown]
+error_on_missing_highlight = true
 external_links_target_blank = true
+lazy_async_image = true
