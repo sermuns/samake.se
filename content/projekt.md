@@ -8,7 +8,7 @@ Utvecklar ett alternativ till [SchemDraw](https://schemdraw.readthedocs.io/en/st
 
 ## [<span style="color: yellow;">Lysator</span>s nya hemsida](https://git.lysator.liu.se/www/hemsida) (Dec 2024 - )
 
-Utvecklar just nu Lysators nya hemsida. Hemsidan genereras från MarkDown-innehåll genom HTML-templates till statiskt innehåll med SSG:n `zola` (precis som denna hemsida).
+Utvecklar just nu Lysators nya hemsida. Hemsidan genereras från MarkDown-innehåll genom HTML-templates till statiskt innehåll med SSG:n [`zola`](https://www.getzola.org/documentation/getting-started/overview/) (precis som denna hemsida).
 
 ## [128 checkboxes](https://lysator.liu.se/~sermuns/checkboxes) (Dec 2025)
 
