@@ -1,4 +1,0 @@
-[submodule "cv"]
-	path = cv
-	url = git@github.com:sermuns/cv.git
-	branch = main

@@ -17,9 +17,14 @@ jobs:
       pages: write # to push to a github pages site
     steps:
 
-      - uses: actions/checkout@v4
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Checkout CV
+        uses: actions/checkout@v4
         with:
-          submodules: 'recursive'
+          repository: sermuns/cv
+          path: cv
 
       - uses: jdx/mise-action@v2
         with: 
