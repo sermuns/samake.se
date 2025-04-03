@@ -2,6 +2,8 @@
 
 {% block content %}
 <a href=".." style="font-size: 300%;">⬅</a>
-{{ '# ' ~ page.title | markdown | safe }}
-{{ page.content | safe }}
+{% if section.title %}
+{{ '# ' ~ section.title | markdown | safe }}
+{% endif %}
+{{ section.content | safe }}
 {% endblock content %}
