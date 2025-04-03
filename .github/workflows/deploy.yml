@@ -26,7 +26,7 @@ jobs:
           working_directory: cv
 
       - name: Build CV
-        run: typst compile cv.typ ../static/cv.pdf
+        run: typst compile --font-path=fonts cv.typ ../static/cv.pdf
         working-directory: cv
       
       - name: Build website
