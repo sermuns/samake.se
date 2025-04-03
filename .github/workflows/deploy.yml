@@ -18,10 +18,18 @@ jobs:
     steps:
 
       - uses: actions/checkout@v4
+        with:
+          submodules: 'recursive'
 
       - uses: jdx/mise-action@v2
+        with: 
+          working_directory: cv
 
-      - name: Build
+      - name: Build CV
+        run: typst compile cv.typ ../static/cv.pdf
+        working-directory: cv
+      
+      - name: Build website
         run: zola build
 
       - name: Setup Pages
