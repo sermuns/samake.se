@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 
 {% block content %}
-<a href=".." style="font-size: 300%;">⬅</a>
+<a href="..">&larr;</a>
 {{ '# ' ~ page.title | markdown | safe }}
 {{ page.content | safe }}
 {% endblock content %}
