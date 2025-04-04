@@ -107,17 +107,23 @@ a {
 		display: inline-block;
 		border: 1px solid var(--accent);
 		width: 2rem;
-
-		&:active {
-			transform: scale(0.9);
-		}
+	}
+	&:active {
+		transform: scale(0.9);
 	}
 }
 
-#posts{
-	>div {
-		border: 1px solid var(--foreground);
-		padding: 0 .5em;
+#posts {
+	h2 {
+		margin-top: 1em;
+	}
+	a {
+		text-decoration: unset;
+		color: unset;
+	}
+	div {
+		border: 1px solid var(--accent);
+		padding: 0 0.5em;
 	}
 }
 
