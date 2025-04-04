@@ -6,9 +6,13 @@
 {{ '# ' ~ section.title | markdown | safe }}
 {% endif %}
 {{ section.content | safe }}
-<ul>
-  {% for page in section.pages %}
-  <li><a href="{{ page.permalink | safe }}">{{ page.date ~ " | " ~ page.title }}</a></li>
-  {% endfor %}
-</ul>
+<div id="posts">
+{% for page in section.pages %}
+<div>
+<a href="{{ page.permalink | safe }}">
+<p>{{ page.date }} | {{ page.title }}</p>
+{{ page.summary | safe }}
+</a>
+</div>
+{% endfor %}
 {% endblock content %}

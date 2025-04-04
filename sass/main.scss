@@ -114,6 +114,13 @@ a {
 	}
 }
 
+#posts{
+	>div {
+		border: 1px solid var(--foreground);
+		padding: 0 .5em;
+	}
+}
+
 .wrap-grid {
 	p {
 		margin: unset;
