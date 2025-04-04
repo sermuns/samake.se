@@ -1,5 +1,48 @@
-{% extends "base.html" %}
+<!DOCTYPE html>
+<html lang="sv">
+    {% include "partials/head.html" %}
+    <style>
+	main {
+	    display: block;
+	    margin: auto;
 
-{% block content %}
-{{ section.content | safe }}
-{% endblock content %}
+	    text-align: center;
+	    font-size: 125%;
+
+	    > h1 {
+		margin: 0;
+	    }
+	    > ul {
+		list-style: none;
+		padding-left: 0;
+
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		gap: 2em;
+	    }
+	}
+    </style>
+    <body>
+        <main>
+            <h1>Samuel Åkesson</h1>
+            <ul>
+                <li>
+                    <a href="/cv.pdf">💼 CV</a>
+                </li>
+                <li>
+                    <a href="/projekt">📂 Projekt</a>
+                </li>
+                <li>
+                    <a href="/blogg">🖊️ Blogg</a>
+                </li>
+                <li>
+                    <a href="/kontakt">💌 Kontakt</a>
+                </li>
+                <li>
+                    <a href="/om-mig">🔎 Om mig</a>
+                </li>
+            </ul>
+        </main>
+    </body>
+</html>
