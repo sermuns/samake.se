@@ -1,7 +1,10 @@
 {% extends "base.html" %}
 
-{% block content %}
+{% block header %}
 <a href="..">&larr;</a>
 {{ '# ' ~ page.title | markdown | safe }}
+{% endblock header %}
+
+{% block content %}
 {{ page.content | safe }}
 {% endblock content %}

@@ -2,6 +2,10 @@
 <html lang="sv">
 {% include "partials/head.html" %}
 <body>
+    <header>
+        {% block header %}
+        {% endblock header %}
+    </header>
     <main>
         {% block content %}
         {{ section.content | safe }}

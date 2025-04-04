@@ -1,8 +1,6 @@
 ---
 ---
 
-<div id="home">
-
 # Samuel Åkesson
 
 - [💼 CV](cv.pdf)
@@ -10,5 +8,3 @@
 - [🖊️ Blogg](blogg)
 - [💌 Kontakt](kontakt)
 - [🔎 Om mig](om-mig)
-
-</div>

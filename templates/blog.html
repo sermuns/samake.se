@@ -1,18 +1,17 @@
 {% extends "base.html" %}
-
 {% block content %}
-<a href="..">&larr;</a>
-{% if section.title %}
-{{ '# ' ~ section.title | markdown | safe }}
-{% endif %}
-{{ section.content | safe }}
-<div id="posts">
-{% for page in section.pages %}
-<a href="{{ page.permalink | safe }}">
-<div>
-<h3>{{ page.title }} | {{ page.date }}</h3>
-{{ page.summary | safe }}
-</div>
-</a>
-{% endfor %}
-{% endblock content %}
+    <a href="..">&larr;</a>
+    {% if section.title %}{{ '# ' ~ section.title | markdown | safe }}{% endif %}
+    {{ section.content | safe }}
+    <div id="posts">
+        {% for page in section.pages %}
+            <a href="{{ page.permalink | safe }}">
+                <div>
+                    <h3>{{ page.title }}</h3>
+                    <div>{{ page.date }} | {{ page.reading_time }} min</div>
+                    <hr>
+                    {{ page.summary | safe }}
+                </div>
+            </a>
+        {% endfor %}
+    {% endblock content %}
