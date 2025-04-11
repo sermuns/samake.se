@@ -1,62 +1,21 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
-<svg
-   width="40mm"
-   height="40mm"
-   viewBox="0 0 40 40"
-   version="1.1"
-   id="svg1"
-   inkscape:version="1.4 (e7c3feb100, 2024-10-09)"
-   sodipodi:docname="favicon.svg"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <sodipodi:namedview
-     id="namedview1"
-     pagecolor="#272727"
-     bordercolor="#000000"
-     borderopacity="0.25"
-     inkscape:showpageshadow="2"
-     inkscape:pageopacity="0.0"
-     inkscape:pagecheckerboard="0"
-     inkscape:deskcolor="#d1d1d1"
-     inkscape:document-units="mm"
-     inkscape:zoom="2.9228667"
-     inkscape:cx="107.25771"
-     inkscape:cy="73.557921"
-     inkscape:window-width="1447"
-     inkscape:window-height="1269"
-     inkscape:window-x="26"
-     inkscape:window-y="23"
-     inkscape:window-maximized="0"
-     inkscape:current-layer="layer1" />
-  <defs
-     id="defs1" />
-  <g
-     inkscape:label="Layer 1"
-     inkscape:groupmode="layer"
-     id="layer1"
-     transform="translate(-99.5681,-70.252144)">
-    <rect
-       style="fill:#36311f;fill-opacity:1;stroke-width:1.94387"
-       id="rect1"
-       width="40"
-       height="40"
-       x="99.5681"
-       y="70.252144"
-       ry="9.4280891" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:28.7266px;font-family:'MonaspiceKr Nerd Font';-inkscape-font-specification:'MonaspiceKr Nerd Font';text-align:start;letter-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#fef2d8;fill-opacity:1;stroke-width:22.3429"
-       x="101.97305"
-       y="103.94755"
-       id="text1"><tspan
-         id="tspan1"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'MonaspiceKr Nerd Font';-inkscape-font-specification:'MonaspiceKr Nerd Font';letter-spacing:0px;fill:#fef2d8;fill-opacity:1;stroke-width:22.3429"
-         x="101.97305"
-         y="103.94755"
-         sodipodi:role="line">SÅ</tspan></text>
-  </g>
+<svg class="typst-doc" viewBox="0 0 16.5 16.5" width="16.5pt" height="16.5pt" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:h5="http://www.w3.org/1999/xhtml">
+    <g>
+        <g transform="translate(-0 -0)">
+            <path class="typst-shape" fill="#36311f" fill-rule="nonzero" d="M 0 3 C 0 1.3431457 1.3431457 0 3 0 L 13.5 0 C 15.156855 0 16.5 1.3431457 16.5 3 L 16.5 13.5 C 16.5 15.156855 15.156855 16.5 13.5 16.5 L 3 16.5 C 1.3431457 16.5 0 15.156855 0 13.5 Z "/>
+        </g>
+        <g transform="translate(1.4300000000000002 12.965)">
+            <g class="typst-text" transform="scale(1, -1)">
+                <use xlink:href="#g5A4E9B758980E05F101D1353748C5106" x="0" fill="#fef2d8" fill-rule="nonzero"/>
+                <use xlink:href="#gBB52FA7CDAA808A1F82C5C4403FCB3DA" x="6.82" fill="#fef2d8" fill-rule="nonzero"/>
+            </g>
+        </g>
+    </g>
+    <defs id="glyph">
+        <symbol id="g5A4E9B758980E05F101D1353748C5106" overflow="visible">
+            <path d="M 0.9625 0 L 4.565 0 L 5.929 1.628 L 5.929 2.7335 L 1.9909999 5.6925 L 1.9909999 6.1105 L 2.7775 7.117 L 5.8025 7.117 L 5.6705 8.03 L 2.2549999 8.03 L 0.891 6.402 L 0.891 5.2965 L 4.829 2.3375 L 4.829 1.9195 L 4.0425 0.913 L 0.83599997 0.913 Z "/>
+        </symbol>
+        <symbol id="gBB52FA7CDAA808A1F82C5C4403FCB3DA" overflow="visible">
+            <path d="M 1.001 0 L 2.0625 0 L 2.0625 2.2 L 4.7575 2.2 L 4.7575 0 L 5.819 0 L 5.819 4.8675 L 4.048 8.03 L 3.9819999 8.03 L 4.697 8.811 L 4.697 9.614 L 3.8885 10.4885 L 2.9315 10.4885 L 2.123 9.6085 L 2.123 8.8055 L 2.838 8.03 L 2.772 8.03 L 1.001 4.8675 Z M 2.0625 3.0085 L 2.0625 4.5429997 L 3.41 7.0895 L 4.7575 4.554 L 4.7575 3.0085 Z M 2.7005 9.0365 L 2.7005 9.3775 L 3.2065 9.944 L 3.6134999 9.944 L 4.1195 9.3775 L 4.1195 9.0365 L 3.6134999 8.47 L 3.2065 8.47 Z "/>
+        </symbol>
+    </defs>
 </svg>
