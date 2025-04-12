@@ -14,6 +14,8 @@ author = "Samuel Åkesson"
 error_on_missing_highlight = true
 external_links_target_blank = true
 lazy_async_image = true
+highlight_code = true
+highlight_theme = "monokai"
 
 [slugify]
 paths_keep_dates = true
