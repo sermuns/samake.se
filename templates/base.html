@@ -1,15 +1,15 @@
 <!DOCTYPE html>
-<html lang="sv">
-{% include "partials/head.html" %}
-<body>
-    <header>
-        {% block header %}
-        {% endblock header %}
-    </header>
-    <main>
-        {% block content %}
-        {{ section.content | safe }}
-        {% endblock content %}
-    </main>
-</body>
+<html lang={{ page.extra.lang | default(value=config.default_language) }}>
+    {% include "partials/head.html" %}
+    <body>
+        <header>
+            {% block header %}
+            {% endblock header %}
+        </header>
+        <main>
+            {% block content %}
+                {{ section.content | safe }}
+            {% endblock content %}
+        </main>
+    </body>
 </html>
