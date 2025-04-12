@@ -17,3 +17,19 @@ lazy_async_image = true
 
 [slugify]
 paths_keep_dates = true
+
+[extra]
+keywords = [
+	"samuel",
+	"åkesson",
+	"liu",
+	"linköping",
+	"lysator",
+	"schemgo",
+	"undervisningsnummer",
+	"un",
+	"sermuns",
+	"admittansen",
+	"zola",
+	"ledigt",
+]
