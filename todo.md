@@ -1,4 +1,4 @@
-- [ ] starskärm center
+- [x] starskärm center
 - [ ] projekt
     - [ ] kartläggningrobot
     - [ ] trs
