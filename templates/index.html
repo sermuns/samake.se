@@ -1,28 +1,27 @@
 <!DOCTYPE html>
 <html lang="sv">
-    {% include "partials/head.html" %}
-    <style>
-	main {
-	    display: block;
-	    margin: auto;
-
-	    text-align: center;
-	    font-size: 125%;
-
-	    > h1 {
-		margin: 0;
+    <head>
+	{% include "partials/head.html" %}
+	<style>
+	    main {
+		display: block;
+		margin: auto;
+		text-align: center;
+		font-size: 125%;
+		> h1 {
+		    margin: 0;
+		}
+		> ul {
+		    list-style: none;
+		    padding-left: 0;
+		    display: flex;
+		    flex-wrap: wrap;
+		    justify-content: center;
+		    gap: 2em;
+		}
 	    }
-	    > ul {
-		list-style: none;
-		padding-left: 0;
-
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: center;
-		gap: 2em;
-	    }
-	}
-    </style>
+	</style>
+    </head>
     <body>
         <main>
             {{ section.content | markdown | safe }}
