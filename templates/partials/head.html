@@ -1,9 +1,11 @@
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="keywords" content="{{ config.extra.keywords | join(sep=", ") }}">
+<meta name="keywords" content="{{ config.extra.keywords | join(sep=', ') }}">
 <meta name="author" content="{{ config.author }}">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
-<link rel="stylesheet" href="/main.css">
+<link rel="preload" href="/MonaspiceKrNerdFont-Medium.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" as="style" href="/main.css">
+<link rel="stylesheet" media="all" href="/main.css">
 <title>
 	{% if page.title %}
 		{{ page.title }} - 
