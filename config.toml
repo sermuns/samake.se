@@ -2,7 +2,7 @@ title = "Samuel Åkesson"
 description = "Min personliga hemsida / portfolio."
 default_language = "sv"
 
-base_url = "/"
+base_url = "https://samake.se"
 minify_html = true
 compile_sass = true
 build_search_index = false
