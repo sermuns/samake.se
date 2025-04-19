@@ -5,7 +5,8 @@
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="preload" href="/MonaspiceKrNerdFont-Medium.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" as="style" href="/main.css">
-<link rel="stylesheet" media="all" href="/main.css">
+<link rel="stylesheet" href="/main.css" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="/main.css"></noscript>
 <title>
 	{% if page.title %}
 		{{ page.title }} - 
