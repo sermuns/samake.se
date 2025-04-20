@@ -49,11 +49,12 @@ footer {
 	width: min(100%, 80ch);
 }
 
+code {
+	font-family: "MonaspiceKR NFM", monospace;
+}
+
 pre {
 	padding: 1em;
-	> code {
-		font-family: "MonaspiceKR NFM", monospace;
-	}
 }
 
 p > code {
