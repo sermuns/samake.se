@@ -2,7 +2,7 @@
 <html lang={{ page.extra.lang | default(value=config.default_language) }}>
     <head>
         {% include "partials/head.html" %}
-     </head>
+    </head>
     <body>
         <header>
             {% block header %}
@@ -13,5 +13,6 @@
                 {{ section.content | safe }}
             {% endblock content %}
         </main>
+        {% include "partials/footer.html" %}
     </body>
 </html>

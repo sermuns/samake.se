@@ -18,7 +18,6 @@
 
 body {
 	margin: 0;
-	padding: 1rem;
 	height: 100vh;
 	box-sizing: border-box;
 
@@ -28,6 +27,10 @@ body {
 
 	background-color: var(--background);
 	color: var(--foreground);
+}
+
+main, header {
+	padding: 1rem;
 }
 
 h1,
@@ -45,8 +48,20 @@ h2 {
 
 main,
 header,
-footer {
+footer > div {
 	width: min(100%, 80ch);
+}
+
+footer {
+	align-self: stretch;
+	margin-top: auto;
+	background-color: var(--code);
+	> div {
+		margin: auto;
+		display: flex;
+		justify-content: space-between;
+		padding: 1em;
+	}
 }
 
 code {

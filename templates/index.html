@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="sv">
     <head>
-	{% include "partials/head.html" %}
-	<style>
+        {% include "partials/head.html" %}
+        <style>
 	    main {
 		display: block;
 		margin: auto;
@@ -11,7 +11,7 @@
 		> h1 {
 		    margin: 0;
 		}
-		> ul {
+		> ul, > p {
 		    list-style: none;
 		    padding-left: 0;
 		    display: flex;
@@ -20,11 +20,12 @@
 		    gap: 2em;
 		}
 	    }
-	</style>
+        </style>
     </head>
     <body>
         <main>
             {{ section.content | markdown | safe }}
         </main>
+	{% include "partials/footer.html" %}
     </body>
 </html>
