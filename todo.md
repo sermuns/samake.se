@@ -5,3 +5,5 @@
 - [ ] om mig på start
 - [ ] centrerar om mig?
 - [ ] projekt årtal
+
+- [ ] internationalization
