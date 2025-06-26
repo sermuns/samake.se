@@ -1,3 +1,0 @@
-processes:
-  zola:
-    command: zola serve --open
