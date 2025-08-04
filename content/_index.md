@@ -1,6 +1,9 @@
 ---
 ---
 
+
+![jag](./jag.jpg)
+
 # Samuel Åkesson
 
 - [💼 CV](cv.pdf)

@@ -11,26 +11,26 @@ img {
 Här är några av mina projekt som jag har gjort under åren. Jag tycker om att hålla all programmering open-source.
 
 
-## [picodocs](https://github.com/sermuns/picodocs) (Juli 2025 - )
+## [picodocs](https://github.com/sermuns/picodocs) (Juli 2025)
 
 ![picodocs:s banner](picodocs.png)
 
 Skapar just nu ett alternativ till MkDocs med Material for MkDocs, i Rust🦀.
 
 
-## [MEREAD](https://github.com/sermuns/meread) (Juni 2025 - Aug 2025)
+## [MEREAD](https://github.com/sermuns/meread) (Juni 2025)
 
-Enkelt kommandoradsverktyg för att förhandsgranska hur GitHub kommer att rendera dina README (eller andra Markdown-filer). Skrivet i Rust🦀.
+Enkelt kommandoradsverktyg för att förhandsgranska hur GitHub kommer att rendera din README.md (eller andra Markdown-filer). Skrivet i Rust🦀.
 
 
-## [schemgo](https://github.com/sermuns/schemgo) (Jan 2025 - )
+## [schemgo](https://github.com/sermuns/schemgo) (Jan 2025)
 
 ![schemgo:s banner](schemgo.svg)
 
 Experimenterade med att skapa ett alternativ till [SchemDraw](https://schemdraw.readthedocs.io/en/stable/) och [CircuiTikZ](https://www.overleaf.com/learn/latex/CircuiTikz_package), helt skriven i Go
 
 
-## [<span style="color: yellow;">Lysator</span>s nya hemsida](https://git.lysator.liu.se/www/hemsida) (Dec 2024 - )
+## [<span style="color: yellow;">Lysator</span>s nya hemsida](https://git.lysator.liu.se/www/hemsida) (Dec 2024)
 
 ![Lysators nya hemsida](lysators-nya-hemsida.png)
 

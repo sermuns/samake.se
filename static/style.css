@@ -11,8 +11,8 @@
 	--background: #36311f;
 	--accent: #b5ca8d;
 	--code: #2b2718;
-	line-height: 1.8em;
-	font-size: 12pt;
+	line-height: 1.7em;
+	font-size: 16px;
 	font-family: "MonaspiceKR NFM", monospace;
 }
 
@@ -119,26 +119,15 @@ a {
 		vertical-align: text-top;
 	}
 
-	&[href*="linkedin"]::before {
-		background: url(linkedin.svg) no-repeat;
-		background-size: contain;
-		margin-right: 0.5em;
-		content: "";
-		width: 1em;
-		height: 1em;
-		display: inline-block;
-		vertical-align: text-top;
-	}
-
 	&[href=".."] {
 		text-decoration: none;
 		text-align: center;
 		font-size: 2rem;
-
-		padding-top: 0.2rem;
 		display: inline-block;
 		border: 1px solid var(--accent);
-		width: 2rem;
+		width: 1em;
+		padding: 0.1em;
+		padding-bottom: 0.2em;
 	}
 
 	&:active {
