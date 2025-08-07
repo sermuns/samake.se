@@ -37,7 +37,7 @@ Experimenterade med att skapa ett alternativ till [SchemDraw](https://schemdraw.
 Utvecklar just nu Lysators nya hemsida. Hemsidan genereras från MarkDown-innehåll genom HTML-templates till statiskt innehåll med SSG:n [`zola`](https://www.getzola.org/documentation/getting-started/overview/) (precis som denna hemsida).
 
 
-## [128 checkboxes](https://lysator.liu.se/~sermuns/checkboxes) (Dec 2025)
+## [128 checkboxes](https://lysator.liu.se/~sermuns/checkboxes) (Dec 2024)
 
 ![Skärmdump från 128 checkboxes](128-checkboxes.png)
 
