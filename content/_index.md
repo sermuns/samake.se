@@ -6,7 +6,7 @@
 
 # Samuel Åkesson
 
-- [💼 CV](cv.pdf)
-- [📂 Projekt](projekt)
-- [🖊️ Blogg](blogg)
-- [🔎 Om mig](om-mig)
+- [💼 CV](./cv.pdf)
+- [📂 Projekt](./projekt)
+- [🎵 Musik](./musik)
+- [🔎 Om mig](./om-mig)
