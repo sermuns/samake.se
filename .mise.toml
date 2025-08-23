@@ -1,7 +1,2 @@
-tasks.build = 'zola build'
-tasks.serve = 'zola serve --open'
-tasks.clean = 'rm -rf public/'
-tasks.broadcast = 'zola serve -u / -i 0.0.0.0'
-
 [tools]
 zola = "latest"
