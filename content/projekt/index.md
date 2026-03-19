@@ -30,6 +30,12 @@ En webbapp skriven i [Dioxus](https://github.com/DioxusLabs/dioxus/) för att ha
 
 `skrytsam` använder GitHub:s API för att hämta statistik om din profil och genererar en snygg grafisk sammanfattning av den.
 
+## [ocarina-tui](https://github.com/sermuns/ocarina-tui) (Januari 2026)
+
+![ocarina-tui:s banner](ocarina-tui.png)
+
+En rolig terminalbaserad Ocarina, från spelet The Legend of Zelda: Ocarina of Time m.m.
+
 ## [fontain](https://github.com/sermuns/fontain) (December 2025)
 
 ![fontain:s banner](fontain.png)
