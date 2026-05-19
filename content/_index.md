@@ -7,6 +7,6 @@
 # Samuel Åkesson
 
 - [💼 CV](./cv.pdf)
-- [📂 Projekt](./projekt)
+- [💻 Programmering](./programmering)
 - [🎵 Musik](./musik)
 - [🔎 Om mig](./om-mig)
